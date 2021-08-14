@@ -2,9 +2,34 @@
 
 ## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Users should be able to:
+  
+- Create business cards
+- See business cards
+- Edit business cards
+- Delete business cards
+- Toggle between dark and light mode
+
+### Screenshot
+
+![test]("./docs/screenshot.png")
+
+## My process
+
+### Built with
+
+- HTML5
+- CSS
+- Mobile-first workflow
+- React
+
+### What I learned
+
+I learned concepts like props, hooks, portals, refs, error boundaries, side effects, controlled components. I also learned techniches such as render props, optimization using: useMemo, memo, useCallback and route management with react router
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
