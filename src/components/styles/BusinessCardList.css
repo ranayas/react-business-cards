@@ -1,0 +1,21 @@
+.business-card-list {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 3.6rem;
+  padding: 3.2rem 0;
+}
+
+.business-card-list__error {
+  font-size: 3.2rem;
+  color: lightcoral;
+}
+
+.business-card-list__not-found {
+  font-size: 3.2rem;
+  color: blueviolet;
+}
+
+.business-card-list__link {
+  text-decoration: none;
+}

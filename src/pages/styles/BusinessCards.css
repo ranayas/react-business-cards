@@ -1,0 +1,21 @@
+.business-cards--dark {
+  background: black;
+  color: white;
+}
+
+.business-cards__button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.6rem 0;
+}
+
+.business-cards__search-label {
+  font-size: 1.6rem;
+  display: block;
+  padding-bottom: 0.8rem;
+}
+
+.business-cards__search-container {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,26 @@
+.business-card-form {
+  border: 0.1rem solid lightgray;
+  border-radius: 0.2rem;
+  padding: 1.6rem 0;
+}
+
+.business-card-form__flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.business-card-form__label {
+  font-size: 1.6rem;
+}
+
+.business-card-form__group {
+  gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.business-card-form__error {
+  font-size: 1.6rem;
+  color:red;
+}

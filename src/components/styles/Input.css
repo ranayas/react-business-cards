@@ -1,0 +1,12 @@
+.input {
+  font-size: 1.6rem;
+  border: 0.1rem solid lightseagreen;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+}
+
+.input:focus {
+  outline: none;
+  border-color: seagreen;
+  filter: drop-shadow(0 0 0.1rem seagreen);
+}

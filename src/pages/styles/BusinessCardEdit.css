@@ -1,0 +1,26 @@
+.business-card-edit--dark {
+  background-color: black;
+  color: white;
+}
+
+.business-card-edit__form {
+  padding: 3.2rem 0;
+}
+
+.business-card-edit__card {
+  padding-bottom: 3.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.business-card-edit__delete-button {
+  padding-top: 3.6rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.business-card-edit__loader-container {
+  padding-top: 3.6rem;
+  display: flex;
+  justify-content: center;
+}

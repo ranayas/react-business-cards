@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import BusinessCards from "./pages/BusinessCards";
+import BusinessCardEdit from "./pages/BusinessCardEdit";
+import { themes, ThemeContext } from "./components/ThemeContext";
+import { useState } from "react";
 
-function App() {
+const App = () => {
+  const [theme, setTheme] = useState(themes.light);
+
+  function handleThemeChange() {
+    setTheme(theme === themes.light ? themes.dark : themes.light);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <ThemeContext.Provider value={theme}>
+          <Header onToggleThemeChange={handleThemeChange} />
+          <Switch>
+            <Route path="/business-cards/:id/edit">
+              <BusinessCardEdit />
+            </Route>
+            <Route path="/business-cards">
+              <BusinessCards />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </ThemeContext.Provider>
+      </Router>
+    </>
   );
-}
+};
 
 export default App;

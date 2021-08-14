@@ -1,0 +1,39 @@
+.delete-business-card-modal {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.delete-business-card-modal__content {
+  background-color: white;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 5px black;
+  padding: 1.6rem;
+}
+
+.delete-business-card-modal__title {
+  font-size: 3.2rem;
+}
+
+.delete-business-card-modal__subtitle {
+  font-size: 1.6rem;
+}
+
+.delete-business-card-modal__buttons {
+  padding: 1.6rem 0;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.delete-business-card-modal__error {
+  font-size: 1.6rem;
+  color: red;
+}
+
+.delete-business-card-modal--dark .delete-business-card-modal__content {
+  color: white;
+  background-color: black;
+}

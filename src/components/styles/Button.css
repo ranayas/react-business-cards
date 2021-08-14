@@ -1,0 +1,18 @@
+.button {
+  font-size: 1.6rem;
+  background-color: lightseagreen;
+  color: white;
+  border: 0;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button--loading{
+  cursor: wait;
+}
+
+.button--danger {
+  background-color: red;
+}
