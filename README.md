@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Screenshot
 
-![test]("./docs/screenshot.png")
+![test](./docs/screenshot.png)
 
 ## My process
 
