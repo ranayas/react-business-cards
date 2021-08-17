@@ -101,7 +101,7 @@ const BusinessCardEdit = () => {
   }
   return (
     <div
-      class={`business-card-edit ${
+      className={`business-card-edit ${
         theme === themes.light ? "" : "business-card-edit--dark"
       }`}
     >

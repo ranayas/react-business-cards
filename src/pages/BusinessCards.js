@@ -36,7 +36,7 @@ const BusinessCards = () => {
 
   return (
     <div
-      class={`business-cards ${
+      className={`business-cards ${
         theme === themes.light ? "" : "business-cards--dark"
       }`}
     >
